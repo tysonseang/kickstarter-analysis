@@ -13,12 +13,29 @@ The purpose of this project is to support an up-and-coming playwright analyze da
 
 Analysis was conducted in Microsoft Excel on a provided Kickstarter dataset. The original dataset can be accessed [here](https://github.com/tysonseang/kickstarter-analysis/blob/main/Original%20Kickstarter%20Dataset.xlsx)
 
+Various activities were done to modify the data into more readable formats for analysis. This includes adding column filters, freezing rows and columns, adding color-based conditional formatting of campaign outcomes, converting campaign launch and end dates from Unix time stamps, rounding data with the ROUND() function, debugging average donation errors with IFERROR() functions, and adding a launch year column with the YEAR() function.
+
+Data was pivoted to analyze overall US Kickstarter Outcomes by Category as shown below, showcasing the popularity and success of these types of campaigns in the local region. 
+
+![Parent Category Outcomes](https://github.com/tysonseang/kickstarter-analysis/blob/main/Parent%20Category%20Outcomes%20Chart.png)
+
+Measures of central tendency and spread for successful and failed campaigns were analyzed, including the mean, median, standard deviation, upper and lower quartile, and interquartile range.
+![Measures of Central Tendency](https://github.com/tysonseang/kickstarter-analysis/blob/main/Measures%20of%20Central%20Tendency.png)
+
+
+
+Data was also pivoted for campaign outcomes for the *theater* category by date. A line chart was then created from the pivot table to visualize the relationship between outcomes and launch month. This visualization is shown below. 
+
+On a new worksheet, a COUNTIFS() function was used to populate columns for the number of successful, failed, and canceled Kickstarter campaigns by filtering on the Outcome column, Goal amount column, and Subcategory column using the subcategory *plays* as criteria. The Goal column is based on pre-defined dollar-amount ranges, allowing projects to be grouped based on their goal amount. Outcomes percentages were then calculated based on these outputs by dividing them by the total number successful, failed, and canceled projects within each goal group. 
+
 ### Analysis of Outcomes Based on Launch Date
 
+As shown below, theater campaigns are most successful when launched in late Spring/early Summer. 
 ![Theater Outcomes Based on Launch Date]( https://github.com/tysonseang/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
+This visualization indicates that campaigns within the *plays* subcategory are most successful when launched with conservative goals under 5,000. There is a significant drop in successful campaigns when goals exceed 45,000.
 ![Outcomes Based on Goals]( https://github.com/tysonseang/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
@@ -43,5 +60,6 @@ Campaign creators are not tracked within this dataset. The success or failure of
 
 - What are some other possible tables and/or graphs that we could create?
 
-Further analysis of theater campaign subcategories would help differentiate between the performance of campaigns with often widely ranging costs and goals. Theater campaigns within the *spaces* subcategory had a significantly higher average goal than those within the *plays* and *musicals* subcategories. Due to the large variance in average funding goals, I recommend continuing analysis at the subcategory level. 
+Further analysis of theater campaign subcategories would help differentiate between the performance of campaigns with often widely ranging costs and goals. Theater campaigns within the *spaces* subcategory had a significantly higher average goal than those within the *plays* and *musicals* subcategories. Due to the large variance in average funding goals, I recommend continuing analysis at the subcategory level similar to what was done for the Outcomes Based on Goal analysis. 
+
 
