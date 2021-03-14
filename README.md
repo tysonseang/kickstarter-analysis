@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-This project involves data manipulation, analysis, pivoting, and charting in Microsoft Excel. Various filters, conditional formatting, and advanced formulas were created to modify data prior to analysis. Data was then filtered and pivoted in order to drill down into relevant outputs for an analysis of Kickstarter campaigns in the *theater* category. Various pivot charts were created to visualize the performance of campaigns according to various attributes. 
+This project involves data manipulation, analysis, pivoting, and charting in Microsoft Excel. Various filters, conditional formatting, and advanced formulas were created to modify data prior to analysis. Data was then filtered and pivoted in order to drill down into relevant outputs for an analysis of Kickstarter campaigns in the *theater* category. Multiple pivot charts were created to visualize the performance of campaigns according to various attributes. 
 
 ### Purpose
 
@@ -27,7 +27,7 @@ Measures of central tendency and spread for successful and failed campaigns were
 
 Data was also pivoted for campaign outcomes for the *theater* category by date. A line chart was then created from the pivot table to visualize the relationship between outcomes and launch month. This visualization is shown below. 
 
-On a new worksheet, a COUNTIFS() function was used to populate columns for the number of successful, failed, and canceled Kickstarter campaigns by filtering on the Outcome column, Goal amount column, and Subcategory column using the subcategory *plays* as criteria. The Goal column is based on pre-defined dollar-amount ranges, allowing projects to be grouped based on their goal amount. Outcomes percentages were then calculated based on these outputs by dividing them by the total number successful, failed, and canceled projects within each goal group. 
+On a new worksheet, a COUNTIFS() function was used to populate columns for the number of successful, failed, and canceled Kickstarter campaigns by filtering on the Outcome column, Goal amount column, and Subcategory column using the subcategory *plays* as criteria. The Goal column is based on pre-defined dollar-amount ranges, allowing projects to be grouped based on their goal amount. Outcome percentages were then calculated based on these outputs by dividing them by the total number successful, failed, and canceled projects within each goal group. 
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -43,7 +43,7 @@ This visualization indicates that campaigns within the *plays* subcategory are m
 
 ### Challenges and Difficulties Encountered
 
-I did not experience any significant challenges during the Excel analysis portion of this project. I have experience manipulating and analyzing Excel data through functions, filters, charts, and pivot tables. However, this was my first experience with GitHub, so I did encounter a few speed bumps as I delved into basic writing and formatting syntax on GitHub README files.
+I did not experience any significant challenges during the Excel analysis portion of this project. I have experience manipulating and analyzing Excel data through functions, filters, charts, and pivot tables. However, this was my first experience with GitHub, so I did encounter a few speed bumps as I delved into basic writing and formatting syntax for GitHub README files.
 
 
 ## Results
@@ -63,4 +63,4 @@ Campaign creators are not tracked within this dataset. The success or failure of
 
 - What are some other possible tables and/or graphs that we could create?
 
-Further analysis of theater campaign subcategories would help differentiate between the performance of campaigns with often widely ranging costs and goals. Theater campaigns within the *spaces* subcategory had a significantly higher average goal than those within the *plays* and *musicals* subcategories. Due to the large variance in average funding goals, I recommend continuing analysis at the subcategory level similar to what was done for the Outcomes Based on Goal analysis. 
+Further analysis of theater campaign subcategories would help differentiate between the performance of campaigns with often widely ranging costs and goals. Theater campaigns within the *spaces* subcategory had a significantly higher average goal than those within the *plays* and *musicals* subcategories. Due to the large variance in average funding goals, I recommend continuing analysis at the subcategory level similar to what was done for the Outcomes Based on Goal analysis. Additional analysis into average donation rates and the number of contributors would also help in campaign outreach efforts. Charts analyzing average donations by month could uncover if there is any seasonality when it comes to generosity/spending. An additional chart showing the average number of backers for successful and failed campaigns across various goal groups would also provide outreach targets for campaign marketing efforts.
