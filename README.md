@@ -11,7 +11,7 @@ The purpose of this project is to support an up-and-coming playwright analyze da
 
 ## Analysis and Challenges
 
-Analysis was conducted in Microsoft Excel on a provided Kickstarter dataset. The original dataset can be accessed [here]https://github.com/tysonseang/kickstarter-analysis/blob/main/Original%20Kickstarter%20Dataset.xlsx
+Analysis was conducted in Microsoft Excel on a provided Kickstarter dataset. The original dataset can be accessed [here](https://github.com/tysonseang/kickstarter-analysis/blob/main/Original%20Kickstarter%20Dataset.xlsx)
 
 ### Analysis of Outcomes Based on Launch Date
 
