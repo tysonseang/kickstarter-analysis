@@ -11,6 +11,8 @@ The purpose of this project is to support an up-and-coming playwright analyze da
 
 ## Analysis and Challenges
 
+
+
 ### Analysis of Outcomes Based on Launch Date
 
 ![Theater Outcomes Based on Launch Date]( https://github.com/tysonseang/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
