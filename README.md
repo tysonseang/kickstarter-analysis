@@ -21,7 +21,7 @@ Data was pivoted to analyze overall US Kickstarter Outcomes by Category as shown
 
 Measures of central tendency and spread for successful and failed campaigns were analyzed, including the mean, median, standard deviation, upper and lower quartile, and interquartile range.
 
-![Measures of Central Tendency](https://github.com/tysonseang/kickstarter-analysis/blob/main/Measures%20of%20Central%20Tendency.png)
+![Measures of Central Tendency](https://github.com/tysonseang/kickstarter-analysis/blob/main/Resources/Measures%20of%20Central%20Tendency.png)
 
 
 
@@ -33,13 +33,13 @@ On a new worksheet, a COUNTIFS() function was used to populate columns for the n
 
 As shown below, theater campaigns are most successful when launched in late Spring/early Summer. 
 
-![Theater Outcomes Based on Launch Date]( https://github.com/tysonseang/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
+![Theater Outcomes Based on Launch Date](https://github.com/tysonseang/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
 This visualization indicates that campaigns within the *plays* subcategory are most successful when launched with conservative goals under 5,000. There is a significant drop in successful campaigns when goals exceed 45,000.
 
-![Outcomes Based on Goals]( https://github.com/tysonseang/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
+![Outcomes Based on Goals](https://github.com/tysonseang/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
