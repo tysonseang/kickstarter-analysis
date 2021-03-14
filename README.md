@@ -17,7 +17,7 @@ Various activities were done to modify the data into more readable formats for a
 
 Data was pivoted to analyze overall US Kickstarter Outcomes by Category as shown below, showcasing the popularity and success of these types of campaigns in the local region. 
 
-![Parent Category Outcomes](Resources/Parent Category Outcomes Chart.png)
+![Parent Category Outcomes](https://github.com/tysonseang/kickstarter-analysis/blob/main/Resources/Parent%20Category%20Outcomes%20Chart.png)
 
 Measures of central tendency and spread for successful and failed campaigns were analyzed, including the mean, median, standard deviation, upper and lower quartile, and interquartile range.
 
