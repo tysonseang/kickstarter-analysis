@@ -43,7 +43,7 @@ This visualization indicates that campaigns within the *plays* subcategory are m
 
 ### Challenges and Difficulties Encountered
 
-I did not experience any significant challenges during the Excel analysis portion of this project. I have experience manipulating and analyzing Excel data through functions, filters, charts, and pivot tables. However, this was my first experience with GitHub, so I did encounter a few speed bumps as I delved into basic writing and formatting syntax for GitHub README files.
+I did not experience any significant challenges during the Excel analysis portion of this project. I have experience manipulating and analyzing Excel data through functions, filters, charts, and pivot tables. However, this was my first experience with GitHub, so I did encounter a few speed bumps as I delved into basic writing and formatting syntax for GitHub README files. Specific challenges in this regard included styling text, adding relative and external links, and adding images.
 
 
 ## Results
