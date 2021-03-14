@@ -44,5 +44,4 @@ Campaign creators are not tracked within this dataset. The success or failure of
 - What are some other possible tables and/or graphs that we could create?
 
 Further analysis of theater campaign subcategories would help differentiate between the performance of campaigns with often widely ranging costs and goals. Theater campaigns within the *spaces* subcategory had a significantly higher average goal than those within the *plays* and *musicals* subcategories. Due to the large variance in average funding goals, I recommend continuing analysis at the subcategory level. 
-![image](https://user-images.githubusercontent.com/79058025/111053279-2341b880-8428-11eb-9e28-cc1559fb53eb.png)
 
