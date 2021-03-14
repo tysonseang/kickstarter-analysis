@@ -6,7 +6,7 @@ This project involves data manipulation, analysis, pivoting, and charting in Mic
 
 ### Purpose
 
-The purpose of this project is to support an up-and-coming playwright analyze data from the crowdfunding website [Kickstarter] (https://www.kickstarter.com/) to help guide the launch of her first crowdfunding campaign. 
+The purpose of this project is to support an up-and-coming playwright analyze data from the crowdfunding website [Kickstarter](https://www.kickstarter.com/) to help guide the launch of her first crowdfunding campaign. 
 
 By analyzing previous campaigns in the *theater* category, one can better understand if there are specific factors that make a fundraising campaign successful. Successful, failed, and canceled campaigns were analyzed by month of launch date across multiple years and by outcome based on campaign funding goals.
 
