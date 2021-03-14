@@ -27,7 +27,7 @@ Measures of central tendency and spread for successful and failed campaigns were
 
 Data was also pivoted for campaign outcomes for the *theater* category by date. A line chart was then created from the pivot table to visualize the relationship between outcomes and launch month. This visualization is shown below. 
 
-On a new worksheet, a COUNTIFS() function was used to populate columns for the number of successful, failed, and canceled Kickstarter campaigns by filtering on the Outcome column, Goal amount column, and Subcategory column using the subcategory *plays* as criteria. The Goal column is based on pre-defined dollar-amount ranges, allowing projects to be grouped based on their goal amount. Outcome percentages were then calculated based on these outputs by dividing them by the total number successful, failed, and canceled projects within each goal group. 
+On a new worksheet, a COUNTIFS() function was used to populate columns for the number of successful, failed, and canceled Kickstarter campaigns by filtering on the Outcome column, Goal amount column, and Subcategory column using the subcategory *plays* as criteria. The Goal column is based on pre-defined dollar-amount ranges, allowing projects to be grouped based on their goal amount. Outcome percentages were then calculated based on these outputs by dividing them by the total number of successful, failed, and canceled projects within each goal group. 
 
 ### Analysis of Outcomes Based on Launch Date
 
